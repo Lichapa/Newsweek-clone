@@ -1,0 +1,55 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-red {
+  background-color: #f72210;
+}
+
+.bg-yellow {
+  background-color: #ffe400;
+}
+
+.text-black {
+  color: black;
+}
+
+.nav-header {
+  font-weight: 900;
+  font-size: 60px;
+  font-family: sans-serif;
+}
+
+.nav-1 {
+  height: 90px;
+}
+
+nav .navbar{
+  width: 100%;
+  margin: 0;
+}
+.nav-2 {
+  margin-left: 0;
+  padding-left: 0;
+  padding-bottom: 5px;  
+  border-bottom: solid 5px #d9d9d9;
+  border-bottom-width: 120%;
+
+  
+}
+
+.nav-2 li{
+  line-height: 15px;
+}
+
+.border-left {
+  border-left: solid 1px #d9d9d9;
+}
+
+.nav-1-btn {
+  border-radius: 24px;
+  font: 16px "Roboto Condensed", sans-serif;
+  color: black;
+}
