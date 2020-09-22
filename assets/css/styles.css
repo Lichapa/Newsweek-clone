@@ -22,6 +22,10 @@ header {
   color: black;
 }
 
+.text-blue {
+  color: #3581f4;
+}
+
 .nav-header {
   font-weight: 900;
   font-size: 70px;
@@ -31,11 +35,11 @@ header {
 }
 
 .nav-1 {
-padding-top: 0;
-padding-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
-nav .navbar{
+nav .navbar {
   width: 100%;
   margin: 0;
 }
@@ -46,7 +50,7 @@ nav .navbar{
   padding-bottom: 5px;
 }
 
-.nav-2 li{
+.nav-2 li {
   line-height: 15px;
 }
 
@@ -74,4 +78,24 @@ a {
 
 .border-bottom-double {
   border-bottom-style: double;
+}
+
+.insight-1 {
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 7px 15px;
+}
+
+.text-red {
+  color: #f72210;
+}
+
+.fab {
+  font-size: 26px;
+}
+
+footer {
+  font-size: 14px;
 }
