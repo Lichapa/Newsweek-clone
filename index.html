@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
     <title>Newsweek | Clone</title>
   </head>
-  <body class="container-fluid">
+  <body class="">
     <header>
       <nav class="navbar navbar-light bg-red nav-1">
         <div>
@@ -88,11 +88,16 @@
           <li class="nav-item border-left">
             <a href="#" class="nav-link text-black font-weight-bold">Weather</a>
           </li>
-          <li class="nav-item">
-            <input type="search" value="Search" />
+          <li class="nav-item col-xs-1 row">
+            <input
+              class="form-control col-xs-2 border-0 pb-3"
+              type="search"
+              value="Search"
+              placeholder="Search"
+            />
           </li>
         </ul>
-        <div class="nav border-top border-bottom w-100">
+        <div class="nav border-top w-100">
           <a href="#" class="nav-item nav-link">TRENDING</a>
           <a href="#" class="nav-item nav-link"> DONALD TRUMP</a>
           <a href="#" class="nav-item nav-link">JOE BIDEN</a>
@@ -102,7 +107,7 @@
         </div>
       </nav>
     </header>
-    <main>
+    <main class="container-fluid mt-2">
       <div id="main-section1" class="row mb-4">
         <div
           id="main-section1-col1"
@@ -615,115 +620,356 @@
           <!--End of sponsored insight-->
         </div>
       </div>
-    </main>
 
-    <div class="border-bottom">
-      <p class="d-none">Hidden Text</p>
-    </div>
-
-    <footer class="container-fluid">
-      <div class="border-bottom">
-        <div class="row">
-          <div class="col">
-            <a href="#" class="display-4 font-weight-bold text-red d-inline">
-              Newsweek</a
+      <!-- In the Margazine Section -->
+      <div class="container-fluid">
+        <div class="content">
+          <div
+            class="row border-bottom m-auto justify-content-center font-weight-bold pb-2"
+          >
+            <span class="N text-white bg-red px-2 mr-2 font-weight-bolder"
+              >N</span
             >
-            <p class="text-secondary d-inline">&copy 2020 NEWSWEEK</p>
+            IN THE MARGAZINE
           </div>
-          <ul class="col list-inline text-right pt-4">
-            <li class="list-inline-item">
-              <a class="text-secondary" href="#"
-                ><i class="fab fa-facebook-square"></i
-              ></a>
-            </li>
-            <li class="list-inline-item">
-              <a class="text-secondary" href="#"
-                ><i class="fab fa-twitter"></i
-              ></a>
-            </li>
-            <li class="list-inline-item">
-              <a class="text-secondary" href="#"
-                ><i class="fab fa-instagram"></i
-              ></a>
-            </li>
-            <li class="list-inline-item">
-              <a class="text-secondary" href="#"
-                ><i class="fab fa-tumblr"></i
-              ></a>
-            </li>
-            <li class="list-inline-item">
-              <a class="text-secondary" href="#"
-                ><i class="fab fa-linkedin-in"></i
-              ></a>
-            </li>
-          </ul>
+
+          <div class="row my-2">
+            <article class="col-lg-3 px-2">
+              <div class="image-container">
+                <img
+                  src="media/anthony-fauci-washington-dc-getty.png"
+                  alt="Anthony-Fauci"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="category font-weight-bold my-3">
+                <span class="text-white bg-red p-2">Features</span>
+                <span class="text-red">News</span>
+              </div>
+              <h5>
+                <a href="#" class="font-weight-border">Dr. Fauci Would Bet 10 Cents on Trump Having Vaccine by November, December</a>
+              </h5>
+            </article>
+
+            <article class="col-lg-3 px-2">
+              <div class="image-container">
+                <img
+                  src="media/florida-representative-donna-shalala.png"
+                  alt="Anthony-Fauci"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="category font-weight-bold my-3">
+                <span class="text-white bg-red p-2">Periscope</span>
+                <span class="text-red">Politics</span>
+              </div>
+              <h5>
+                <a href="#" class="font-weight-border">Florida Dem Rep Shalala Admits Squad Sometimes Pisses Her Off, Lets Loose on 'Idiotic' Trump</a>
+              </h5>
+            </article>
+
+            <article class="col-lg-3 px-2">
+              <div class="image-container">
+                <img
+                  src="media/per-young-conservatives-01-142740014jpg.png"
+                  alt="Anthony-Fauci"
+                  width="466"
+                  height="311"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="category font-weight-bold my-3">
+                <span class="text-white bg-red p-2">Periscope</span>
+                <span class="text-red">Politics</span>
+              </div>
+              <h5>
+                <a href="#" class="font-weight-border">
+                  Here Are the Young, Diverse Conservative Stars Progressives Need to Fear
+                </a>
+              </h5>
+            </article>
+
+            <article class="col-lg-3 px-2">
+              <div class="image-container">
+                <img
+                  src="media/anthony-fauci-washington-dc-getty.png"
+                  alt="Anthony-Fauci"
+                  width="466"
+                  height="311"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="category font-weight-bold my-3">
+                <span class="text-white bg-red p-2">Features</span>
+                <span class="text-red">News</span>
+              </div>
+              <h5>
+                <a href="#" class="font-weight-border">Dr. Fauci Would Bet 10 Cents on Trump Having Vaccine by November, December</a>
+              </h5>
+            </article>
+
+
+           
+          </div>
+
+          <div class="row my-2">
+            <article class="col-lg-3 px-2">
+              <div class="image-container">
+                <img
+                  src="media/cul-ps-janelle-monae.png"
+                  alt="Anthony-Fauci"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="category font-weight-bold my-3">
+                <span class="text-white bg-red p-2">Dowtime</span>
+                <span class="text-red">Culture</span>
+              </div>
+              <h5>
+                <a href="#" class="font-weight-border">
+                  Janelle Monáe's Film 'Antebellum' Shows the Horrors of Systemic Racism</a>
+              </h5>
+            </article>
+
+            <article class="col-lg-3 px-2">
+              <div class="image-container">
+                <img
+                  src="media/facing.jpg"
+                  alt="Anthony-Fauci"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="category font-weight-bold my-3">
+                <span class="text-white bg-red p-2">In Facing</span>
+                <span class="text-red">Facing Up</span>
+              </div>
+              
+            </article>
+
+          </div>
+
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-md-12 pt-2">
-          <ul class="list-inline">
-            <li class="list-inline-item text-secondary">Editions:</li>
-            <li class="list-inline-item pr-3 border-right">
-              <a class="text-secondary" href="#">U.S Edition</a>
-            </li>
-            <li class="list-inline-item pr-3 border-right">
-              <a class="text-secondary" href="#">日本</a>
-            </li>
-            <li class="list-inline-item pr-3 border-right">
-              <a class="text-secondary" href="#">Pakistan</a>
-            </li>
-            <li class="list-inline-item pr-3 border-right">
-              <a class="text-secondary" href="#">Polska</a>
-            </li>
-            <li class="list-inline-item">
-              <a class="text-secondary" href="#">Romania</a>
-            </li>
-          </ul>
+      <!-- Editor's Pick-->
+      <div class="container-fluid">
+        <div class="content">
+          <div
+            class="row border-bottom m-auto justify-content-center font-weight-bold pb-2"
+          >
+            <span class="N text-white bg-red px-2 mr-2 font-weight-bolder"
+              >N</span>
+            EDITOR'S PICK
+          </div>
+
+          <div class="row my-2">
+            <article class="col-lg-3 px-2">
+              <div class="sponsored  p-1 mt-3">
+                <div class="position-relative">
+                  <div class="insight-1 text-red position-absolute">
+                    POLITICS
+                  </div>
+    
+                  <img src="./media/vice-president-joe-biden-hermantown-minnesota.png" alt="image" class="w-100" />
+                </div>
+    
+                <div class="info mt-3">
+                  <h5>
+                    <a href="#">The Uneasy Alliance in the Democratic Party Is Breaking Over RBG's Death </a>
+                  </h5>
+                  <p>
+                    Arguments about packing the Supreme Court are laying bare the divisions within the 
+                    Democratic Party following the death of Ruth Bader Ginsburg.
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="col-lg-3 px-2">
+              <div class="sponsored p-1 mt-3">
+                <div class="position-relative">
+                  <div class="insight-1 text-red position-absolute">
+                    POLITICS
+                  </div>
+    
+                  <img src="./media/scotus.png" alt="image" class="img-fluid" />
+                </div>
+    
+                <div class="info mt-3">
+                  <h5 >
+                    <a href="#">Packing SCOTUS and Other Ways Dems May Block Trump's Conservative Majority </a>
+                  </h5>
+                  <p >
+                    With Democrats outraged at the prospect of a Trump-nominated justice being given a Supreme 
+                    Court spot months from the election,
+                     speculation is mounting around how they might combat SCOTUS having a conservative slant.
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="col-lg-3 px-2">
+              <div class="sponsored p-1 mt-3">
+                <div class="position-relative">
+                  <div class="insight-1 text-red position-absolute">
+                    TECH & SCIENCE
+                  </div>
+    
+                  <img src="./media/penguins.png" alt="image" class="w-100" />
+                </div>
+    
+                <div class="info mt-3">
+                  <h5 >
+                    <a href="#">Penguin Found Dead With Whole Face Mask in Its Stomach </a>
+                  </h5>
+                  <p >
+                    Discarded face masks are frequently being found lying on beaches in Brazil, local marine conservationists have said.
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="col-lg-3 px-2">
+              <div class="sponsored p-1 mt-3">
+                <div class="position-relative">
+                  <div class="insight-1 text-red position-absolute">
+                    U.S.
+                  </div>
+    
+                  <img src="./media/istock-travel-restrictions.png" alt="image" class="w-100" />
+                </div>
+    
+                <div class="info mt-3">
+                  <h5>
+                    <a href="#">Coronavirus Travel Restrictions by State </a>
+                  </h5>
+                  <p>
+                    The Centers for Disease Control and Prevention has advised Americans that 
+                    traveling could help spread the coronavirus.
+                  </p>
+                </div>
+              </div>
+            </article>
+           
+          </div>
+
+         
+
         </div>
       </div>
 
-      <div class="row">
-        <ul class="list-inline col-md-12">
-          <li class="list-inline-item pr-3 border-right">
-            <a class="text-secondary" href="#">About Us</a>
-          </li>
-          <li class="list-inline-item pr-3 border-right">
-            <a class="text-secondary" href="#">Correction</a>
-          </li>
-          <li class="list-inline-item pr-3 border-right">
-            <a class="text-secondary" href="#">Contact Us</a>
-          </li>
-          <li class="list-inline-item pr-3 border-right">
-            <a class="text-secondary" href="#">Editorila Guidelines</a>
-          </li>
-          <li class="list-inline-item pr-3 border-right">
-            <a class="text-secondary" href="#">Advertise</a>
-          </li>
-          <li class="list-inline-item pr-3 border-right">
-            <a class="text-secondary" href="#">Copyright</a>
-          </li>
-          <li class="list-inline-item pr-3 border-right">
-            <a class="text-secondary" href="#">Terms & Conditons</a>
-          </li>
-          <li class="list-inline-item pr-3 border-right">
-            <a class="text-secondary" href="#">Privacy Policy</a>
-          </li>
-          <li class="list-inline-item pr-3 border-right">
-            <a class="text-secondary" href="#">Terms of Sale</a>
-          </li>
-          <li class="list-inline-item pr-3 border-right">
-            <a class="text-secondary" href="#">Archve</a>
-          </li>
-          <li class="list-inline-item pr-3 border-right">
-            <a class="text-secondary" href="#">Announcements</a>
-          </li>
-          <li class="list-inline-item">
-            <a class="text-secondary" href="#">Consent prefernces</a>
-          </li>
-        </ul>
+
+
+      <div class="border-bottom">
+        <p class="d-none">Hidden Text</p>
       </div>
-    </footer>
+
+      <!-- Footer-->
+
+      <footer class="container-fluid">
+        <div class="border-bottom">
+          <div class="row">
+            <div class="col">
+              <a href="#" class="display-4 font-weight-bold text-red d-inline">
+                Newsweek</a
+              >
+              <p class="text-secondary d-inline">&copy 2020 NEWSWEEK</p>
+            </div>
+            <ul class="col list-inline text-right pt-4">
+              <li class="list-inline-item">
+                <a class="text-secondary" href="#"
+                  ><i class="fab fa-facebook-square"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a class="text-secondary" href="#"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a class="text-secondary" href="#"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a class="text-secondary" href="#"
+                  ><i class="fab fa-tumblr"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a class="text-secondary" href="#"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 pt-2">
+            <ul class="list-inline">
+              <li class="list-inline-item text-secondary">Editions:</li>
+              <li class="list-inline-item pr-3 border-right">
+                <a class="text-secondary" href="#">U.S Edition</a>
+              </li>
+              <li class="list-inline-item pr-3 border-right">
+                <a class="text-secondary" href="#">日本</a>
+              </li>
+              <li class="list-inline-item pr-3 border-right">
+                <a class="text-secondary" href="#">Pakistan</a>
+              </li>
+              <li class="list-inline-item pr-3 border-right">
+                <a class="text-secondary" href="#">Polska</a>
+              </li>
+              <li class="list-inline-item">
+                <a class="text-secondary" href="#">Romania</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <ul class="list-inline col-md-12">
+            <li class="list-inline-item pr-3 border-right">
+              <a class="text-secondary" href="#">About Us</a>
+            </li>
+            <li class="list-inline-item pr-3 border-right">
+              <a class="text-secondary" href="#">Correction</a>
+            </li>
+            <li class="list-inline-item pr-3 border-right">
+              <a class="text-secondary" href="#">Contact Us</a>
+            </li>
+            <li class="list-inline-item pr-3 border-right">
+              <a class="text-secondary" href="#">Editorila Guidelines</a>
+            </li>
+            <li class="list-inline-item pr-3 border-right">
+              <a class="text-secondary" href="#">Advertise</a>
+            </li>
+            <li class="list-inline-item pr-3 border-right">
+              <a class="text-secondary" href="#">Copyright</a>
+            </li>
+            <li class="list-inline-item pr-3 border-right">
+              <a class="text-secondary" href="#">Terms & Conditons</a>
+            </li>
+            <li class="list-inline-item pr-3 border-right">
+              <a class="text-secondary" href="#">Privacy Policy</a>
+            </li>
+            <li class="list-inline-item pr-3 border-right">
+              <a class="text-secondary" href="#">Terms of Sale</a>
+            </li>
+            <li class="list-inline-item pr-3 border-right">
+              <a class="text-secondary" href="#">Archve</a>
+            </li>
+            <li class="list-inline-item pr-3 border-right">
+              <a class="text-secondary" href="#">Announcements</a>
+            </li>
+            <li class="list-inline-item">
+              <a class="text-secondary" href="#">Consent prefernces</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </main>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
