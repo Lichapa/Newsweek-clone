@@ -2,6 +2,12 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
+  background-color: #f4f5f6;
+}
+
+main,
+header {
+  background-color: white;
 }
 
 .bg-red {
@@ -18,26 +24,26 @@ body {
 
 .nav-header {
   font-weight: 900;
-  font-size: 60px;
+  font-size: 70px;
   font-family: sans-serif;
+  padding-top: 0;
+  margin: 0;
 }
 
 .nav-1 {
-  height: 90px;
+padding-top: 0;
+padding-bottom: 0;
 }
 
 nav .navbar{
   width: 100%;
   margin: 0;
 }
+
 .nav-2 {
   margin-left: 0;
   padding-left: 0;
-  padding-bottom: 5px;  
-  border-bottom: solid 5px #d9d9d9;
-  border-bottom-width: 120%;
-
-  
+  padding-bottom: 5px;
 }
 
 .nav-2 li{
@@ -52,4 +58,20 @@ nav .navbar{
   border-radius: 24px;
   font: 16px "Roboto Condensed", sans-serif;
   color: black;
+}
+
+.article-img {
+  width: 297px;
+}
+
+.weather-icon {
+  width: 30px;
+}
+
+a {
+  color: black;
+}
+
+.border-bottom-double {
+  border-bottom-style: double;
 }

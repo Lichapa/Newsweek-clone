@@ -18,17 +18,19 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
     <title>Newsweek | Clone</title>
   </head>
-  <body>
+  <body class="container-fluid">
     <header>
       <nav class="navbar navbar-light bg-red nav-1">
-        <a class="nav-link text-white">Monday, Sep 21, 2020</a>
+        <div>
+        <a href="#" class="nav-link text-white"><span><img class="weather-icon" src="./media/cloudy.png"></span>18&deg;<strong>London, UK ></strong></a>
+        <a href="#" class="nav-link text-white">Monday, Sep 21, 2020</a>
+      </div>
         <a href="#" class="navbar-brand text-white nav-header">Newsweek</a>
         <form class="form-inline">
           <a href="#" class="nav-link my-2 text-white font-weight-bold">Login</a>
           <button
             class="btn nav-1-btn my-2 my-sm-0 bg-yellow font-weight-bold"
-            type="submit"
-          >
+            type="submit">
             SUBSCRIBE >
           </button>
         </form>
@@ -78,9 +80,8 @@
             <input type="search" value="Search" />
           </li>
         </ul>
-
-        <div class="nav">
-          <a href="#" class="nav-item nav-link">TRE</a>
+        <div class="nav border-top border-bottom w-100">
+          <a href="#" class="nav-item nav-link">TRENDING</a>
           <a href="#" class="nav-item nav-link"> DONALD TRUMP</a>
           <a href="#" class="nav-item nav-link">JOE BIDEN</a>
           <a href="#" class="nav-item nav-link">CHINA</a>
@@ -89,6 +90,390 @@
         </div>
       </nav>
     </header>
+    <main>
+      <div id="main-section1" class="row mb-4">
+        <div id="main-section1-col1"
+          class="col-md-5 col-xl-4 order-2 order-md-1">
+          <div class="pl-4">
+            <h6 class="mt-3 mb-2 text-uppercase text-black-50 font-weight-bolder">
+              Featured Stories
+            </h6>
+            <!-- feature story card link  -->
+            <div class="card border-0">
+              <div class="img-container">
+                <img
+                  src="./media/joe-biden-campaigns-wisconsin-2020.jpg" class="card-img-top" alt="joe-biden-campaigns-wisconsin-2020 image"/>
+                <h6 class="py-2 px-3 text-uppercase text-danger">
+                  World
+                </h6>
+              </div>
+
+              <div class="card-body px-0 py-2">
+                <h4>
+                  <a href="#">Biden Appeals Directly to Obama Voters Who Flipped for Trump in 2016</a>
+                </h4>
+                <p class="card-text">
+                  "I know many of you were frustrated," the Democratic nominee said. "I get it. It has to change. It will change with me.</p>
+              </div>
+            </div>
+
+
+            <div class="card border-0">
+              <div class="img-container">
+                <img src="./media/americas-best-physical-rehabilitation-centers-2020.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <h6 class="py-2 px-3 text-uppercase text-danger">
+                  World
+                </h6>
+              </div>
+
+              <div class="card-body px-0 py-2">
+                <h4>
+                  <a href="#">
+                    America's Best Physical Rehabilitation Centers 2020
+                  </a>
+                </h4>
+                <p class="card-text">
+                  Finding reliable rehabilitation can be a challenge. We partnered with Statista to rank the country's Best Physical Rehabilitation Centers.
+                </p>
+              </div>
+            </div>
+
+
+            <!-- feature story card link  -->
+            <div class="card border-0">
+              <div class="img-container">
+                <img src="./media/best-maternity-care-hospitals-2020.jpg"
+                  class="card-img-top"
+                  alt="best-maternity-care-hospitals-2020.jpg"
+                />
+                <h6 class="py-2 px-3 text-uppercase text-danger">
+                  maternity
+                </h6>
+              </div>
+
+              <div class="card-body px-0 py-2">
+                <h4>
+                  <a href="#">Best Maternity Hospitals 2020</a>
+                </h4>
+                <p class="card-text">
+                  The facilities cited by Newsweek are an elite group demonstrating excellence in maternity care. Check the full list here.
+                </p>
+              </div>
+            </div>
+
+
+            <!-- Feature Story Text link  -->
+            <h6 class="py-2 border-top border-bottom">
+              <a href="#">
+                Trump Economic Adviser Says Britain, Europe to Blame for Stock Market Woes
+              </a>
+            </h6>
+
+            <!-- feature story card link  -->
+            <div class="card border-0">
+              <div class="img-container">
+                <img
+                  src="./media/larry-kudlow.jpg" class="card-img-top" alt="larry-kudlow.jpg"/>
+                <h6 class="py-2 px-3 text-uppercase text-danger">
+                  U.S.
+                </h6>
+              </div>
+
+              <div class="card-body px-0 py-2">
+                <h4>
+                  <a href="#">
+                    Democrats Prepare to Hold William Barr in Contempt</a
+                  >
+                </h4>
+                <p class="card-text">
+                  The USA is in a much better position, thankfully. We've regained control of the virus, both the cases and the fatalities," Larry Kudlow told reporters on Monday.
+                </p>
+              </div>
+            </div>
+
+            <!-- Feature Story Text link  -->
+            <h6 class="py-2 border-top border-bottom">
+              <a href="#">
+                Democrats to Barr: Turn Over Full Mueller Report by Monday or
+                Face Contempt
+              </a>
+            </h6>
+          </div>
+        </div>
+
+        <div
+          id="main-section1-col2"
+          class="col-md-7 col-xl-5 order-1 order-md-2"
+        >
+          <div id="main-top-story">
+            <h6
+              class="mt-3 mb-2 text-uppercase text-black-50 font-weight-bolder"
+            >
+              Top Story
+            </h6>
+
+            <!-- Top story card link  -->
+            <div class="card border-0">
+              <div class="img-container">
+                <img
+                  src="./media/mitch-mcconnell.jpg"
+                  class="card-img-top"
+                  alt="image"
+                />
+                <h6 class="text-uppercase text-danger">
+                  World
+                </h6>
+              </div>
+
+              <div class="card-body px-0 py-2">
+                <h4>
+                  <a href="#">McConnell Vows Senate Will Vote on Trump Supreme Court Nominee 'This Year'
+                  </a>
+                </h4>
+                <p class="card-text">"The Senate majority leader rejected accusations from Democrats that moving to confirm a new justice would be
+                   hypocritical just weeks before the election, given his refusal in 2016 to allow a vote on President Barack Obama's nominee.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div>
+            <h6
+              class="mt-3 mb-2 text-uppercase text-black-50 font-weight-bolder"
+            >
+              More Stories
+            </h6>
+
+            <!-- More story card link  -->
+
+            <ul class="list-unstyled">
+              <li class="media py-3 border-top">
+                <img
+                  src="./media/supporters-national-tps-alliance.jpg" class="mr-3" alt="supporters-national-tps-alliance image"/>
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    <a href="#">
+                      Iran: U.S. Aircraft Carrier Deployment ‘Clumsy’
+                      Psychological Warfare
+                    </a>
+                  </h6>
+                  The executive director of Human Rights Watch says that Donald Trump treats human rights legislation as a political tool rather than a matter of principle."
+                </div>
+              </li>
+
+              <li class="media py-3 border-top">
+                <img
+                  src="./assets/images/gettyimages-1147365197.jpg"
+                  class="mr-3"
+                  alt="..."
+                />
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    <a href="#">
+                      Trump Pardons Former Army Lieutenant Convicted of Killing
+                      Iraqi Prisoner
+                    </a>
+                  </h6>
+                  Trump signed an Executive Grant of Clemency for ex-Army First
+                  Lieutenant Michael Behenna after he was sentenced to prison by
+                  a military court for "unpremeditated murder in a combat zone."
+                </div>
+              </li>
+
+              <li class="media py-3 border-top">
+                <img
+                  src="./assets/images/mike-pompeo-arctic-sea-ice.jpg"
+                  class="mr-3"
+                  alt="..."
+                />
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    <a href="#">
+                      The Arctic Is Melting. Mike Pompeo Seems to Think This Is
+                      a Good Thing
+                    </a>
+                  </h6>
+                  Scientists disagree.
+                </div>
+              </li>
+
+              <li class="media py-3 border-top">
+                <img
+                  src="./assets/images/pamela-anderson.jpg"
+                  class="mr-3"
+                  alt="..."
+                />
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    <a href="#">
+                      Pamela Anderson to Be Julian Assange's First Visitor in
+                      Prison
+                    </a>
+                  </h6>
+                  The former "Baywatch" star will visit the Australian at
+                  Belmarsh Prison in London on Tuesday.
+                </div>
+              </li>
+
+              <li class="media py-3 border-top">
+                <img
+                  src="./assets/images/betsy-devos.jpg"
+                  class="mr-3"
+                  alt="..."
+                />
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    <a href="#">
+                      DeVos Says Teachers Should Protest Wages on 'Adult Time,'
+                      Not During School
+                    </a>
+                  </h6>
+                  "It's important that adults have adult disagreements on adult
+                  time, and that they not ultimately hurt kids in the process,"
+                  Secretary of Education Betsy Devos
+                </div>
+              </li>
+
+              <li class="media py-3 border-top">
+                <img
+                  src="./assets/images/sunscreen-sun-block-stock-getty.jpg"
+                  class="mr-3"
+                  alt="..."
+                />
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    <a href="#">
+                      Experts React to Sunscreen Blood Absorption Warning: Keep
+                      Using Sunblock
+                    </a>
+                  </h6>
+                  The risks of using sunscreen are far outweighed by the
+                  benefits of protecting your skin from cancer, experts said.
+                </div>
+              </li>
+
+              <li class="media py-3 border-top">
+                <img
+                  src="./assets/images/how-many-people-died-chernobyl.jpg"
+                  class="mr-3"
+                  alt="..."
+                />
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    <a href="#">
+                      Chernobyl Disaster True Story: First Responders Speak On
+                      Radiation Deaths
+                    </a>
+                  </h6>
+                  First responders at the Chernobyl disaster faced radiation and
+                  death. Some of their stories have only been told years after
+                  the meltdown.
+                </div>
+              </li>
+
+              <li class="media py-3 border-top">
+                <img
+                  src="./assets/images/gettyimages-1138247428-2.jpg"
+                  class="mr-3"
+                  alt="..."
+                />
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    <a href="#">
+                      Washington Post Readers Slam Steve Bannon Column
+                    </a>
+                  </h6>
+                  "Why would anyone give this maniac a platform?" one social
+                  media user asked.
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-12 col-xl-3 order-3 order-md-3"
+        >
+          <!-- Main Opinion Section Begin -->
+          <div>
+            <h6
+              class="mt-3 mb-2 text-uppercase text-black-50 font-weight-bolder">THE DEBATE</h6>
+
+            <!-- Opinion Card list  -->
+            <ul class="list-unstyled">
+              <li class="media py-3 border-bottom border-bottom-double">
+                <img style="width: 4rem"
+                  src="./media/jamil-n-jaffer.png"
+                  class="mr-3"
+                  alt="..."/>
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    <a href="#">
+                      The Best (Cyber) Defense Is a Good (Cyber) Offense
+                    </a>
+                  </h6>
+                  <span class="text-uppercase text-black-50">
+                    BY <a class="text-black-50" href="#"> JAMIL N. JAFFER </a>
+                  </span>
+                </div>
+              </li>
+
+              <li class="d-flex">
+                 <div class="col-8">
+                  <h6 class="mt-0 mb-1">
+                    <a href="#">
+                      The U.S. Needs a Cyber Strategy Designed for Defense
+                    </a>
+                  </h6>
+                  <span class="text-uppercase text-black-50">
+                    BY <a class="text-black-50" href="#"> BONNIE KRISTIAN </a>
+                  </span>
+                </div>
+                <div class="col-4">
+                <img style="width: 4rem;"
+                  src="./media/bonnie-kristian.png"
+                  class="mr-3"
+                  alt="..."/>
+                </div>
+              </li>
+              <li><strong>Opinion</strong></li>
+              <li class="media py-3 border-bottom">
+                <img style="width: 4rem" src="./media/robert-reich.png" class="mr-3" alt="image"/>
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    <a href="#">Robert Reich Ginsburg Fought for Principle. McConnell Is Fighting Only for Power
+                    </a>
+                  </h6>
+                  <span class="text-uppercase text-black-50">
+                    BY <a class="text-black-50" href="#"> ROBERT REICH</a>
+                  </span>
+                </div>
+              </li>
+
+              <li class="media py-3 border-bottom">
+                <img style="width: 4rem" src="./media/kelly-shackelford.png" class="mr-3" alt="Image">
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    <a href="#">
+                      Kelly Shackelford Trump Says Coronavirus 'Affects Virtually Nobody' at Ohio Rally
+                    </a>
+                  </h6>
+                  <span class="text-uppercase text-black-50">
+                    BY <a class="text-black-50" href="#"> KELLY SHACKELFORD</a>
+                  </span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <img src="./media/image-3-this-startup-making.jpg" alt="image" class="col-lg-12">
+          </div>
+
+
+    </main>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
