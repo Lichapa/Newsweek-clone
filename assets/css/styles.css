@@ -99,7 +99,7 @@ a {
 .newsletter-img {
   background-image: url("starting5-homepage.png");
   background-repeat: no-repeat;
-  background-color: #cccccc;
+  background-color: #ccc;
   background-position: 50%;
   background-size: cover;
 }
@@ -108,12 +108,12 @@ footer {
   font-size: 14px;
 }
 
-#mobile-nav{
- z-index: 14;
- display: none;
- width: 100%;
- margin-left: 0;
- line-height: 10px;
+#mobile-nav {
+  z-index: 14;
+  display: none;
+  width: 100%;
+  margin-left: 0;
+  line-height: 10px;
 }
 
 .img-absolute {
@@ -122,12 +122,12 @@ footer {
 }
 
 @media screen and (max-width: 991px) {
-  .mobile-nav-sticky{
+  .mobile-nav-sticky {
     display: inline-flex;
     position: fixed;
     z-index: 4;
     width: 100%;
-    top:0;
+    top: 0;
     line-height: 10px;
   }
 
