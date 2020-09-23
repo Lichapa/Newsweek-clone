@@ -96,11 +96,20 @@ a {
   font-size: 26px;
 }
 
-.newsletter-img{
-  background-image: url("/media/starting5-homepage.png");
+.newsletter-img {
+  background-image: url("starting5-homepage.png");
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+  background-position: 50%;
+  background-size: cover;
 }
 
 footer {
   font-size: 14px;
 }
 
+@media all and (max-width: 991px){
+  .display-none{
+    display: none;  
+  }
+}
