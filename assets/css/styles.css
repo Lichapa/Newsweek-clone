@@ -134,4 +134,8 @@ footer {
   .max991-display-none {
     display: none;
   }
+
+  .footer-social {
+    text-align: left !important;
+  }
 }
