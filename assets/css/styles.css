@@ -96,6 +96,11 @@ a {
   font-size: 26px;
 }
 
+.newsletter-img{
+  background-image: url("/media/starting5-homepage.png");
+}
+
 footer {
   font-size: 14px;
 }
+

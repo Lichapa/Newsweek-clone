@@ -2,7 +2,7 @@
 # Newsweek-clone
 > This project is trying out Twitter’s Bootstrap framework by building a site that actually uses it – Newsweek.
 
-![screenshot](./images/site-screenshot.png)
+![screenshot](./media/screenshot.png)
 
 ## Project Requirements
 
