@@ -108,8 +108,30 @@ footer {
   font-size: 14px;
 }
 
-@media all and (max-width: 991px){
-  .display-none{
-    display: none;  
+#mobile-nav{
+ z-index: 14;
+ display: none;
+ width: 100%;
+ margin-left: 0;
+ line-height: 10px;
+}
+
+.img-absolute {
+  left: 80px;
+  top: 25px;
+}
+
+@media screen and (max-width: 991px) {
+  .mobile-nav-sticky{
+    display: inline-flex;
+    position: fixed;
+    z-index: 4;
+    width: 100%;
+    top:0;
+    line-height: 10px;
+  }
+
+  .max991-display-none {
+    display: none;
   }
 }

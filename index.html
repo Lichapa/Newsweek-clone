@@ -22,19 +22,36 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
     <title>Newsweek | Clone</title>
   </head>
-  <body class="container-fluid">
-    <header>
-      <!-- Mobile Nav-->
-      <nav class="navbar bg-red d-lg-none">
+  <body>
+      <header>
+        <!-- Mobile Nav On scroll-->
+        <nav id="mobile-nav" class="navbar bg-red">
+          <a href="#" class="navbar-brand text-white"><strong>Newsweek</strong></a>
+          <form class="form-inline">
+            <a href="#" class="nav-link my-2 text-white font-weight-bold"
+                >LOGIN</a>
+            <button
+              class="btn nav-1-btn my-2 my-sm-0 bg-yellow font-weight-bold"
+              type="submit"
+            >
+              SUBSCRIBE >
+            </button>
+            <i class="fas fa-bars mx-2 text-white"></i>
+          </form>
+        </nav>
+      </header>
+
+    <div class="container-fluid">
+     <header>
+      <!-- Mobile Nav -->
+      <nav class="navbar bg-red d-lg-none mobile-nav-sticky">
         <a href="#" class="navbar-brand text-white">Newsweek</a>
         <form class="form-inline">
           <a href="#" class="nav-link my-2 text-white font-weight-bold"
-            >Login</a
-          >
+            >LOGIN</a>
           <button
             class="btn nav-1-btn my-2 my-sm-0 bg-yellow font-weight-bold"
-            type="submit"
-          >
+            type="submit">
             SUBSCRIBE >
           </button>
           <i class="fas fa-bars mx-2 text-white"></i>
@@ -42,7 +59,7 @@
       </nav>
 
       <!-- Large nav shown at 992px -->
-      <nav class="navbar navbar-light bg-red nav-1 display-none">
+      <nav class="navbar navbar-light bg-red nav-1 max991-display-none">
         <div>
           <a href="#" class="nav-link text-white"
             ><span><img class="weather-icon" src="./media/cloudy.png" /></span
@@ -53,7 +70,7 @@
         <a href="#" class="navbar-brand text-white nav-header">Newsweek</a>
         <form class="form-inline">
           <a href="#" class="nav-link my-2 text-white font-weight-bold"
-            >Login</a
+            >LOGIN</a
           >
           <button
             class="btn nav-1-btn my-2 my-sm-0 bg-yellow font-weight-bold"
@@ -75,21 +92,16 @@
           </li>
           <li class="nav-item border-left">
             <a href="#" class="nav-link text-black font-weight-bold">
-              Business</a
-            >
+              Business</a>
           </li>
           <li class="nav-item border-left">
-            <a href="#" class="nav-link text-black font-weight-bold"
-              >Tech & Science</a
-            >
+            <a href="#" class="nav-link text-black font-weight-bold">Tech & Science</a>
           </li>
           <li class="nav-item border-left">
             <a href="#" class="nav-link text-black font-weight-bold">Culture</a>
           </li>
           <li class="nav-item border-left">
-            <a href="#" class="nav-link text-black font-weight-bold"
-              >Newsgeek</a
-            >
+            <a href="#" class="nav-link text-black font-weight-bold">Newsgeek</a>
           </li>
           <li class="nav-item border-left">
             <a href="#" class="nav-link text-black font-weight-bold">Sports</a>
@@ -98,9 +110,7 @@
             <a href="#" class="nav-link text-black font-weight-bold">Health</a>
           </li>
           <li class="nav-item border-left">
-            <a href="#" class="nav-link text-black font-weight-bold"
-              >The Debate</a
-            >
+            <a href="#" class="nav-link text-black font-weight-bold">The Debate</a>
           </li>
           <li class="nav-item border-left">
             <a href="#" class="nav-link text-black font-weight-bold">Vantage</a>
@@ -1395,7 +1405,20 @@
         <div class="row py-4">
           <div class="col-lg-8">
             <h4 class="text-red font-weight-bold">SUBSCRIBE</h4>
-            <div class="bg-secondary"></div>
+            <div class="row py-2 bg-light ml-3">
+              <div class="col-md-5 d-flex position-relative p-3">
+              <img src="./media/cover-september-11-18-2020.jpg" alt="image" width="160" height="220">
+              <img src="./media/cover-september-25-2020.jpg" alt="image" class="position-absolute img-absolute">
+              </div>
+              <div class="col-md-7 info p-2 py-5">
+                <h4>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h4>
+                <p >All Access + Weekly Delivery. <br>
+                    Choose A Membership That's Perfect for You!</p>
+                <button class="form-control bg-red text-white">SUBSCRIBE ></button>
+              </div>
+            </div>
+
+
           </div>
           <div class="col-lg-4">
             <h4 class="text-red font-weight-bold">NEWSLETTER</h4>
@@ -1435,12 +1458,10 @@
       <div class="border-bottom">
         <div class="row">
           <div class="col">
-            <a href="#" class="display-4 font-weight-bold text-red d-inline"
-              >Newsweek</a
-            >
-            <p class="text-secondary d-inline">&copy 2020 NEWSWEEK</p>
+            <a href="#" class="display-4 font-weight-bold text-red d-inline">Newsweek</a>
+            <p class="text-secondary d-lg-inline col-sm-12">&copy 2020 NEWSWEEK</p>
           </div>
-          <ul class="col list-inline text-right pt-4">
+          <ul class="col list-inline text-right pt-4 col-sm-12">
             <li class="list-inline-item">
               <a class="text-secondary" href="#"
                 ><i class="fab fa-facebook-square"></i
@@ -1534,6 +1555,7 @@
         </ul>
       </div>
     </footer>
+  </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -1550,7 +1572,9 @@
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
+      <script src="./index.js">
+
+      </script>
   </body>
 </html>
