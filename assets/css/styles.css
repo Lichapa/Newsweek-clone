@@ -50,8 +50,10 @@ nav .navbar {
   padding-bottom: 5px;
 }
 
-.nav-2 li {
+.nav-2 li a{
   line-height: 15px;
+  padding: 4px;
+  margin: 1px;
 }
 
 .border-left {
@@ -134,6 +136,10 @@ footer {
   .max991-display-none {
     display: none;
   }
+
+main{
+  padding-top: 50px;
+}
 
   .footer-social {
     text-align: left !important;

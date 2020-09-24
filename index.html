@@ -25,7 +25,7 @@
   <body>
       <header>
         <!-- Mobile Nav On scroll-->
-        <nav id="mobile-nav" class="navbar bg-red">
+        <nav id="mobile-nav" class="navbar bg-red ">
           <a href="#" class="navbar-brand text-white"><strong>Newsweek</strong></a>
           <form class="form-inline">
             <a href="#" class="nav-link my-2 text-white font-weight-bold"
@@ -41,10 +41,10 @@
         </nav>
       </header>
 
-    <div class="container-fluid">
+   
      <header>
       <!-- Mobile Nav -->
-      <nav class="navbar bg-red d-lg-none mobile-nav-sticky">
+      <nav class="navbar bg-red d-lg-none mobile-nav-sticky ">
         <a href="#" class="navbar-brand text-white">Newsweek</a>
         <form class="form-inline">
           <a href="#" class="nav-link my-2 text-white font-weight-bold"
@@ -118,13 +118,14 @@
           <li class="nav-item border-left">
             <a href="#" class="nav-link text-black font-weight-bold">Weather</a>
           </li>
-          <li class="nav-item col-xs-1 row">
+          <li class="nav-item col-sm pl-0">
             <input
-              class="form-control col-xs-2 border-0 pb-3"
+              class=" w-75 border-0 pb-3"
               type="search"
               value="Search"
               placeholder="Search"
             />
+            
           </li>
         </ul>
         <div class="nav border-top w-100">
@@ -137,11 +138,14 @@
         </div>
       </nav>
     </header>
+
+    <div class="">
     <main class="container-fluid mt-2">
+
       <div id="main-section1" class="row mb-4">
         <div
           id="main-section1-col1"
-          class="col-md-5 col-xl-4 order-2 order-md-1"
+          class="col-md-5 col-lg-4 order-2 order-md-1"
         >
           <div class="pl-4">
             <h6
@@ -151,13 +155,13 @@
             </h6>
             <!-- feature story card link  -->
             <div class="card border-0">
-              <div class="img-container">
+              <div class="img-container position-relative">
+                <h6 class="mb-0 text-uppercase text-danger insight-1 position-absolute">World</h6>
                 <img
                   src="./media/joe-biden-campaigns-wisconsin-2020.jpg"
                   class="card-img-top"
                   alt="joe-biden-campaigns-wisconsin-2020 image"
                 />
-                <h6 class="py-2 px-3 text-uppercase text-danger">World</h6>
               </div>
 
               <div class="card-body px-0 py-2">
@@ -175,13 +179,14 @@
             </div>
 
             <div class="card border-0">
-              <div class="img-container">
+              <div class="img-container position-relative">
+                <h6 class="mb-0 text-uppercase text-danger insight-1 position-absolute">World</h6>
                 <img
                   src="./media/americas-best-physical-rehabilitation-centers-2020.jpg"
                   class="card-img-top"
                   alt="..."
                 />
-                <h6 class="py-2 px-3 text-uppercase text-danger">World</h6>
+                
               </div>
 
               <div class="card-body px-0 py-2">
@@ -200,13 +205,13 @@
 
             <!-- feature story card link  -->
             <div class="card border-0">
-              <div class="img-container">
+              <div class="img-container position-relative">
+                <h6 class="mb-0 text-uppercase text-danger position-absolute insight-1">maternity</h6>
                 <img
                   src="./media/best-maternity-care-hospitals-2020.jpg"
                   class="card-img-top"
                   alt="best-maternity-care-hospitals-2020.jpg"
-                />
-                <h6 class="py-2 px-3 text-uppercase text-danger">maternity</h6>
+                />                 
               </div>
 
               <div class="card-body px-0 py-2">
@@ -230,15 +235,15 @@
             </h6>
 
             <!-- feature story card link  -->
-            <div class="card border-0">
-              <div class="img-container">
+            <div class="card border-0">    
+                <div class="img-container position-relative ">
+                <h6 class=" mb-0 text-uppercase text-danger insight-1 position-absolute">U.S.</h6>
                 <img
                   src="./media/larry-kudlow.jpg"
                   class="card-img-top"
                   alt="larry-kudlow.jpg"
-                />
-                <h6 class="py-2 px-3 text-uppercase text-danger">U.S.</h6>
-              </div>
+                />               
+              </div>  
 
               <div class="card-body px-0 py-2">
                 <h4>
@@ -266,7 +271,7 @@
 
         <div
           id="main-section1-col2"
-          class="col-md-7 col-xl-5 order-1 order-md-2"
+          class="col-md-7 col-lg-5 order-1 order-md-2"
         >
           <div id="main-top-story">
             <h6
@@ -277,13 +282,13 @@
 
             <!-- Top story card link  -->
             <div class="card border-0">
-              <div class="img-container">
+              <div class="img-container position-relative">
+                <h6 class="text-uppercase text-danger position-absolute insight-1 mb-0">World</h6>
                 <img
                   src="./media/mitch-mcconnell.jpg"
                   class="card-img-top"
                   alt="image"
                 />
-                <h6 class="text-uppercase text-danger">World</h6>
               </div>
 
               <div class="card-body px-0 py-2">
@@ -302,6 +307,147 @@
               </div>
             </div>
           </div>
+
+          <div class="d-sm-none d-md-block">
+          <div class="row my-2  ">
+            <article class="col-md-4 px-2">
+              <div class="sponsored p-1 mt-3">
+                <div class="position-relative">
+                  <div class="insight-1 text-red position-absolute">
+                    POLITICS
+                  </div>
+
+                  <img
+                    src="./media/vice-president-joe-biden-hermantown-minnesota.png"
+                    alt="image"
+                    class="w-100"
+                  />
+                </div>
+
+                <div class="info  mt-3">
+                  <h6>
+                    <a href="#"
+                      >The Uneasy Alliance in the Democratic Party Is Breaking
+                      Over RBG's Death
+                    </a>
+                  </h6>
+                  </div>
+              </div>
+            </article>
+
+            <article class="col-md-4  px-2">
+              <div class="sponsored p-1 mt-3">
+                <div class="position-relative">
+                  <div class="insight-1 text-red position-absolute">
+                    POLITICS
+                  </div>
+
+                  <img src="./media/scotus.png" alt="image" class="w-100" />
+                </div>
+
+                <div class="info mt-3">
+                  <h6>
+                    <a href="#"
+                      >Packing SCOTUS and Other Ways Dems May Block Trump's
+                      Conservative Majority
+                    </a>
+                  </h6>
+              
+                </div>
+              </div>
+            </article>
+            
+            <article class="col-md-4  px-2">
+              <div class="sponsored p-1 mt-3">
+                <div class="position-relative">
+                  <div class="insight-1 text-red position-absolute">U.S.</div>
+
+                  <img src="./media/trump.jpg" alt="image" class="w-100" />
+                </div>
+
+                <div class="info mt-3">
+                  <h6>
+                    <a href="#"
+                      >'Trump Lied, 200,000 Died' Neon Sign Displayed at White
+                      House</a
+                    >
+                  </h6>
+                  
+                </div>
+              </div>
+            </article>            
+          </div>
+          <div class="row my-2 ">
+            <article class="col-md-4 px-2">
+              <div class="sponsored p-1 mt-3">
+                <div class="position-relative">
+                  <div class="insight-1 text-red position-absolute">
+                    POLITICS
+                  </div>
+
+                  <img
+                    src="./media/vice-president-joe-biden-hermantown-minnesota.png"
+                    alt="image"
+                    class="w-100"
+                  />
+                </div>
+
+                <div class="info  mt-3">
+                  <h6>
+                    <a href="#"
+                      >The Uneasy Alliance in the Democratic Party Is Breaking
+                      Over RBG's Death
+                    </a>
+                  </h6>
+                  </div>
+              </div>
+            </article>
+
+            <article class="col-md-4  px-2">
+              <div class="sponsored p-1 mt-3">
+                <div class="position-relative">
+                  <div class="insight-1 text-red position-absolute">
+                    POLITICS
+                  </div>
+
+                  <img src="./media/scotus.png" alt="image" class="w-100" />
+                </div>
+
+                <div class="info mt-3">
+                  <h6>
+                    <a href="#"
+                      >Packing SCOTUS and Other Ways Dems May Block Trump's
+                      Conservative Majority
+                    </a>
+                  </h6>
+              
+                </div>
+              </div>
+            </article>
+            
+            <article class="col-md-4  px-2">
+              <div class="sponsored p-1 mt-3">
+                <div class="position-relative">
+                  <div class="insight-1 text-red position-absolute">U.S.</div>
+
+                  <img src="./media/trump.jpg" alt="image" class="w-100" />
+                </div>
+
+                <div class="info mt-3">
+                  <h6>
+                    <a href="#"
+                      >'Trump Lied, 200,000 Died' Neon Sign Displayed at White
+                      House</a
+                    >
+                  </h6>
+                  
+                </div>
+              </div>
+            </article>            
+          </div>
+        </div>  
+        <!-- End of My turn -->
+
 
           <div>
             <h6
@@ -478,7 +624,8 @@
           </div>
         </div>
 
-        <div class="col-md-12 col-xl-3 order-3 order-md-3">
+        <div class="col-md-10 col-lg-3 order-3 order-md-3">
+
           <!-- Main Opinion Section Begin -->
           <div>
             <h6
@@ -528,6 +675,8 @@
                   />
                 </div>
               </li>
+
+              <!-- Opinion Section -->
               <li class="pt-3"><strong>Opinion</strong></li>
               <li class="media py-3 border-bottom">
                 <img
@@ -568,6 +717,46 @@
                   </span>
                 </div>
               </li>
+
+              <li class="media py-3 border-bottom">
+                <img
+                  style="width: 4rem"
+                  src="./media/alan-dershowitz.png"
+                  class="mr-3"
+                  alt="Image"
+                />
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    <a href="#">
+                      Can the Vice President Break the Tie on a Supreme Court Confirmation?
+                    </a>
+                  </h6>
+                  <span class="text-uppercase text-black-50">
+                    BY <a class="text-black-50" href="#">  Alan Dershowitz</a>
+                  </span>
+                </div>
+              </li>
+
+              <li class="media py-3 border-bottom">
+                <img
+                  style="width: 4rem"
+                  src="./media/david-m-schizer.png"
+                  class="mr-3"
+                  alt="Image"
+                />
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    <a href="#">
+                      The Conservative Legacy of Ruth Bader Ginsburg 
+                    </a>
+                  </h6>
+                  <span class="text-uppercase text-black-50">
+                    BY <a class="text-black-50" href="#"> David M. Schizer</a>
+                  </span>
+                </div>
+              </li>
+
+              <!-- End Of Opinion Section -->              
             </ul>
           </div>
 
@@ -597,6 +786,29 @@
                 more than half are under 35.
               </p>
             </div>
+          </div>
+
+          <!-- Signup Section -->
+          <div class="bg-light border my-3 mx-2 py-2 px-3" >
+            
+          <ul class="row list-unstyled d-inline-flex mx-auto my-3">
+            <li class="col-2 N text-white bg-red p-2 pb-1 mr-2 font-weight-bolder">N</li>
+            <li class="col-9"> Start your day with our top 5 articles</li>
+          </ul>
+              
+              <form class="form-group">
+                <input
+                  type="email"
+                  placeholder="Email address"
+                  value="email"
+                  class="form-control"
+                />
+                <input
+                  type="button"
+                  value="FREE SIGN UP >"
+                  class="text-white bg-red form-control mt-2"
+                />
+              </form>
           </div>
 
           <!-- Sponsored inside 2-->
@@ -664,8 +876,8 @@
           </div>
 
           <div class="row my-2">
-            <article class="col-lg-3 px-2">
-              <div class="image-container">
+            <article class="col-md-3 px-2">
+              <div class="image-container ">
                 <img
                   src="media/anthony-fauci-washington-dc-getty.png"
                   alt="Anthony-Fauci"
@@ -684,7 +896,7 @@
               </h5>
             </article>
 
-            <article class="col-lg-3 px-2">
+            <article class="col-md-3 px-2">
               <div class="image-container">
                 <img
                   src="media/florida-representative-donna-shalala.png"
@@ -704,7 +916,7 @@
               </h5>
             </article>
 
-            <article class="col-lg-3 px-2">
+            <article class="col-md-3 px-2">
               <div class="image-container">
                 <img
                   src="media/per-young-conservatives-01-142740014jpg.png"
@@ -724,7 +936,7 @@
               </h5>
             </article>
 
-            <article class="col-lg-3 px-2">
+            <article class="col-md-3 px-2">
               <div class="image-container">
                 <img
                   src="media/anthony-fauci-washington-dc-getty.png"
@@ -746,7 +958,7 @@
           </div>
 
           <div class="row my-2">
-            <article class="col-lg-3 px-2">
+            <article class="col-md-3 px-2">
               <div class="image-container">
                 <img
                   src="media/cul-ps-janelle-monae.png"
@@ -766,7 +978,7 @@
               </h5>
             </article>
 
-            <article class="col-lg-3 px-2">
+            <article class="col-md-3  px-2">
               <div class="image-container">
                 <img src="media/facing.jpg" alt="Anthony-Fauci" class="w-100" />
               </div>
@@ -793,7 +1005,7 @@
           </div>
 
           <div class="row my-2">
-            <article class="col-lg-3 px-2">
+            <article class="col-lg-3 col-md-6 px-2">
               <div class="sponsored p-1 mt-3">
                 <div class="position-relative">
                   <div class="insight-1 text-red position-absolute">
@@ -823,7 +1035,7 @@
               </div>
             </article>
 
-            <article class="col-lg-3 px-2">
+            <article class="col-lg-3  col-md-6 px-2">
               <div class="sponsored p-1 mt-3">
                 <div class="position-relative">
                   <div class="insight-1 text-red position-absolute">
@@ -850,7 +1062,7 @@
               </div>
             </article>
 
-            <article class="col-lg-3 px-2">
+            <article class="col-lg-3  col-md-6 px-2">
               <div class="sponsored p-1 mt-3">
                 <div class="position-relative">
                   <div class="insight-1 text-red position-absolute">
@@ -874,7 +1086,7 @@
               </div>
             </article>
 
-            <article class="col-lg-3 px-2">
+            <article class="col-lg-3  col-md-6 px-2">
               <div class="sponsored p-1 mt-3">
                 <div class="position-relative">
                   <div class="insight-1 text-red position-absolute">U.S.</div>
@@ -898,7 +1110,7 @@
               </div>
             </article>
 
-            <article class="col-lg-3 px-2">
+            <article class="col-lg-3  col-md-6 px-2">
               <div class="sponsored p-1 mt-3">
                 <div class="position-relative">
                   <div class="insight-1 text-red position-absolute">U.S.</div>
@@ -926,7 +1138,7 @@
               </div>
             </article>
 
-            <article class="col-lg-3 px-2">
+            <article class="col-lg-3  col-md-6 px-2">
               <div class="sponsored p-1 mt-3">
                 <div class="position-relative">
                   <div class="insight-1 text-red position-absolute">U.S.</div>
@@ -950,7 +1162,7 @@
               </div>
             </article>
 
-            <article class="col-lg-3 px-2">
+            <article class="col-lg-3  col-md-6 px-2">
               <div class="sponsored p-1 mt-3">
                 <div class="position-relative">
                   <div class="insight-1 text-red position-absolute">U.S.</div>
@@ -977,7 +1189,7 @@
               </div>
             </article>
 
-            <article class="col-lg-3 px-2">
+            <article class="col-lg-3  col-md-6 px-2">
               <div class="sponsored p-1 mt-3">
                 <div class="position-relative">
                   <div class="insight-1 text-red position-absolute">U.S.</div>
@@ -1005,7 +1217,7 @@
               </div>
             </article>
 
-            <article class="col-lg-3 px-2">
+            <article class="col-lg-3  col-md-6 px-2">
               <div class="sponsored p-1 mt-3">
                 <div class="position-relative">
                   <div class="insight-1 text-red position-absolute">U.S.</div>
@@ -1032,7 +1244,7 @@
               </div>
             </article>
 
-            <article class="col-lg-3 px-2">
+            <article class="col-lg-3  col-md-6 px-2">
               <div class="sponsored p-1 mt-3">
                 <div class="position-relative">
                   <div class="insight-1 text-red position-absolute">U.S.</div>
@@ -1059,7 +1271,7 @@
               </div>
             </article>
 
-            <article class="col-lg-3 px-2">
+            <article class="col-lg-3  col-md-6 px-2">
               <div class="sponsored p-1 mt-3">
                 <div class="position-relative">
                   <div class="insight-1 text-red position-absolute">U.S.</div>
@@ -1095,22 +1307,22 @@
       <section class="border-bottom">
         <h3 class="text-danger mt-3">U.S.</h3>
         <div class="row">
-          <div class="col-lg-4">
-            <img src="./media/trump-coronavirus-task-force.jpg" alt="image" />
+          <div class="col-md-4">
+            <img src="./media/trump-coronavirus-task-force.jpg" alt="image" class="w-100" />
             <h4>
               Coronavirus Task Force Shifted From Science to Trump's Agenda:
               Pence Aide
             </h4>
           </div>
 
-          <div class="col-lg-4">
-            <img src="./media/mitt-romney.jpg" alt="image" />
+          <div class="col-md-4">
+            <img src="./media/mitt-romney.jpg" alt="image" class="w-100"  />
             <h4>
               Romney Gives Trump The Vote Needed to Fill RBG's SCOTUS Seat
             </h4>
           </div>
 
-          <div class="col-lg-4">
+          <div class="col-md-4">
             <div class="border-bottom d-flex pb-2">
               <img src="./media/fire.png" alt="image" />
               <h5 class="pl-2 pb-2">
@@ -1140,16 +1352,17 @@
           </div>
         </div>
       </section>
-
+ 
+      <!-- World Section -->
       <section class="border-bottom">
         <h3 class="text-danger mt-3">
-          Five Dead Alligators Discovered Floating in New Orleans Bayou
+          World
         </h3>
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-md-4">
             <img
               src="./media/south-lebanon-explosion-ain-qana.jpg"
-              alt="image"
+              alt="image" class="w-100" 
             />
             <h4>
               Lebanon Hit By Another Explosion As Insecurity Haunts Country
@@ -1157,15 +1370,15 @@
             </h4>
           </div>
 
-          <div class="col-lg-4">
-            <img src="./media/narendra-modi-trump.jpg" alt="image" />
+          <div class="col-md-4">
+            <img src="./media/narendra-modi-trump.jpg" alt="image" class="w-100"  />
             <h4>
               Trump 'Emboldened' India's Anti-Muslim Agenda, Human Rights Chief
               Says
             </h4>
           </div>
 
-          <div class="col-lg-4">
+          <div class="col-md-4">
             <div class="border-bottom d-flex pb-2">
               <img src="./media/fire.png" alt="image" />
               <h5 class="pl-2 pb-2">
@@ -1196,13 +1409,14 @@
         </div>
       </section>
 
+      <!-- Business Section -->
       <section class="border-bottom">
         <h3 class="text-danger mt-3">Business</h3>
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-md-4">
             <img
               src="./media/pennsylvania-mask-restrictions-lifted-judge.jpg"
-              alt="image"
+              alt="image" class="w-100" 
             />
             <h4>
               Judge Rules Pennsylvania's 'New Normal' COVID Restrictions
@@ -1210,15 +1424,15 @@
             </h4>
           </div>
 
-          <div class="col-lg-4">
-            <img src="./media/tiktok-sale.jpg" alt="image" />
+          <div class="col-md-4">
+            <img src="./media/tiktok-sale.jpg" alt="image" class="w-100"  />
             <h4>
               TikTok Chooses Oracle, a Rare Trump Ally in Silicon Valley, to
               Sell Assets
             </h4>
           </div>
 
-          <div class="col-lg-4">
+          <div class="col-md-4">
             <div class="border-bottom d-flex pb-2">
               <img src="./media/fire.png" alt="image" />
               <h5 class="pl-2 pb-2">
@@ -1249,26 +1463,27 @@
         </div>
       </section>
 
+      <!-- Tech and Science -->
       <section class="border-bottom">
         <h3 class="text-danger mt-3">Tech & Science</h3>
         <div class="row">
-          <div class="col-lg-4">
-            <img src="./media/fall-equinox.jpg" alt="image" />
+          <div class="col-md-4">
+            <img src="./media/fall-equinox.jpg" alt="image" class="w-100" />
             <h4>
               Fall Equinox Comes As Gas Giants Jupiter and Saturn Pair up in the
               Sky
             </h4>
           </div>
 
-          <div class="col-lg-4">
-            <img src="./media/sumatran-rhino.jpg" alt="image" />
+          <div class="col-md-4">
+            <img src="./media/sumatran-rhino.jpg" alt="image" class="w-100" />
             <h4>
               World Rhino Day: Images Show One of the Last Sumatran Rhinos Left
               on Earth
             </h4>
           </div>
 
-          <div class="col-lg-4">
+          <div class="col-md-4">
             <div class="border-bottom d-flex pb-2">
               <img src="./media/fire.png" alt="image" />
               <h5 class="pl-2 pb-2">
@@ -1299,13 +1514,14 @@
         </div>
       </section>
 
+      <!-- Culture section -->
       <section class="border-bottom">
         <h3 class="text-danger mt-3">Culture</h3>
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-md-4">
             <img
               src="./media/digimon-last-evolution-kizuna-digidestined-still-2.jpg"
-              alt="image"
+              alt="image" class="w-100" 
             />
             <h4>
               'Digimon Adventure' Movie Producer Talks Film & Franchise's Effect
@@ -1313,14 +1529,14 @@
             </h4>
           </div>
 
-          <div class="col-lg-4">
-            <img src="./media/mountain-rats-filmed-new-york.jpg" alt="image" />
+          <div class="col-md-4">
+            <img src="./media/mountain-rats-filmed-new-york.jpg" alt="image"  class="w-100" />
             <h4>
               5 Years After 'Pizza Rat,' New Yorker Films This Mountain of Rats
             </h4>
           </div>
 
-          <div class="col-lg-4">
+          <div class="col-md-4">
             <div class="border-bottom d-flex pb-2">
               <img src="./media/fire.png" alt="image" />
               <h5 class="pl-2 pb-2">
@@ -1351,26 +1567,27 @@
         </div>
       </section>
 
+      <!-- Sports Section -->
       <section class="border-bottom">
         <h3 class="text-danger mt-3">Sports</h3>
         <div class="row">
-          <div class="col-lg-4">
-            <img src="./media/drew-brees-new-orleans-saints.jpg" alt="image" />
+          <div class="col-md-4">
+            <img src="./media/drew-brees-new-orleans-saints.jpg" alt="image" class="w-100" />
             <h4>
               Is Drew Brees Finally Declining? Stats Paint Worrying Picture for
               Saints QB
             </h4>
           </div>
 
-          <div class="col-lg-4">
-            <img src="./media/kyle-shanahan.jpg" alt="image" />
+          <div class="col-md-4">
+            <img src="./media/kyle-shanahan.jpg" alt="image" class="w-100" />
             <h4>
               3 NFL Head Coaches Fined $100K Apiece For Not Wearing Protective
               Masks
             </h4>
           </div>
 
-          <div class="col-lg-4">
+          <div class="col-md-4">
             <div class="border-bottom d-flex pb-2">
               <img src="./media/fire.png" alt="image" />
               <h5 class="pl-2 pb-2">
@@ -1424,10 +1641,10 @@
           <div class="col-lg-4">
             <h4 class="text-red font-weight-bold">NEWSLETTER</h4>
             <div class="row border m-1">
-              <div class="col mr-2 newsletter-img">
+              <div class="col col-md-3 mr-1 d-sm-none d-md-block newsletter-img">
                 <span class="newsletter-img"></span>
               </div>
-              <article class="col col-6 py-3">
+              <article class="col col-md-7 col-sm-10 m-auto py-3">
                 <h5>The Starting 5</h5>
                 <p>
                   See why nearly a quarter of a million subscribers begin their
