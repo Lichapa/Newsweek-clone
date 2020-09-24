@@ -50,7 +50,11 @@ nav .navbar {
   padding-bottom: 5px;
 }
 
-.nav-2 li a{
+a {
+  color: black;
+}
+
+.nav-2 li a {
   line-height: 15px;
   padding: 4px;
   margin: 1px;
@@ -72,10 +76,6 @@ nav .navbar {
 
 .weather-icon {
   width: 30px;
-}
-
-a {
-  color: black;
 }
 
 .border-bottom-double {
@@ -137,9 +137,9 @@ footer {
     display: none;
   }
 
-main{
-  padding-top: 50px;
-}
+  main {
+    padding-top: 50px;
+  }
 
   .footer-social {
     text-align: left !important;
