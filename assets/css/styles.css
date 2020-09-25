@@ -146,6 +146,7 @@ footer {
     padding-top: 50px;
   }
 }
+
 .subscribe-button {
   width: auto;
 }
@@ -164,22 +165,23 @@ footer {
     text-align: center;
   }
 
-  #subscribe-1st-image{
+  #subscribe-1st-image {
     position: absolute;
     top: 40%;
     left: 30%;
   }
 
-  #subscribe-2nd-image{
+  #subscribe-2nd-image {
     position: absolute;
     top: 60%;
     left: 40%;
   }
-  .subscribe-section-3rd-container{
+
+  .subscribe-section-3rd-container {
     margin-top: 100px;
   }
 
-  .subscribe-button{
+  .subscribe-button {
     margin: auto;
   }
 }
