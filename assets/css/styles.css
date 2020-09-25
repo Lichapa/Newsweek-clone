@@ -146,6 +146,9 @@ footer {
     padding-top: 50px;
   }
 }
+.subscribe-button {
+  width: auto;
+}
 
 @media screen and (max-width: 767px) {
   .my-extra-small {
@@ -155,5 +158,28 @@ footer {
 
   .my-extra-small-2 {
     font-size: 11px;
+  }
+
+  .subscribe-section-2nd-container {
+    text-align: center;
+  }
+
+  #subscribe-1st-image{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+  }
+
+  #subscribe-2nd-image{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+  }
+  .subscribe-section-3rd-container{
+    margin-top: 100px;
+  }
+
+  .subscribe-button{
+    margin: auto;
   }
 }
